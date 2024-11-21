@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mssistemalanchonete
+server:
+  port: 8080
+  servlet:
+    context-path: /sistema-lanchonete/pagamento/api/v1
+  error:
+    include-message: always
+    include-binding-errors: always
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+api:
+  security:
+    token:
+      secret: c73a024d-d0e5-4537-80fa-7902851846f7
